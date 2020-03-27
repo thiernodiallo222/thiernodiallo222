@@ -1,0 +1,33 @@
+.application{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background: whitesmoke;
+
+}
+.navigation{
+background:lightsalmon;
+}
+
+.middle-section{
+background: yellow;
+}
+.footer{
+background: green;
+}
+.middle-items{
+background: darkslateblue;
+}
+.about{
+    background:lightseagreen;
+}
+.projects{
+background: lightgreen;
+}
+.skills{
+background: lightpink;
+}
+.go-to{
+background: lightgray;
+}
+
