@@ -1,13 +1,8 @@
 import React from 'react'
-<<<<<<< HEAD
 import profileA from '../components/photos/profileA.png';
 import profileB from '../components/photos/profileB.png';
 // import '../components/components.css'
 // import AboutCard from '../greatChildren/AboutCard';
-=======
-import profileOne from '../components/photos/profileOne.jpg';
-import profileFive from '../components/photos/profileFive.jpg';
->>>>>>> master
 import './children.css';
 
 const AboutChild = () => {
