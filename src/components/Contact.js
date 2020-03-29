@@ -1,17 +1,15 @@
 import React from 'react'
-import AboutChild from '../children/AboutChild';
 import NavBar from './NavBar';
 import Footer from './Footer';
-import './components.css';
 
-const About = () => {
+const Contact = () => {
     return (
-        <div >
+        <div>
             <NavBar />
-            <AboutChild />
+            <h1>I am the contact page</h1>
             <Footer />
         </div>
     )
-};
+}
 
-export default About
+export default Contact

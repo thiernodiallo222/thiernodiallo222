@@ -1,0 +1,28 @@
+.page{
+    /* background: greenyellow; */
+    display: flex;
+    /* flex-direction:column; */
+}
+
+.section{
+    margin: 5px;
+    padding-left: 15px;
+    padding-right: 2px;
+    width: 650px;
+    height: 500px;
+    display: flex;
+     flex-direction: column; 
+    box-sizing: border-box;
+}
+
+img{
+    width: 648px;
+    height: 498px;
+    border-radius: 5px;
+}
+
+.section-container{
+    background: white;
+    display: flex;
+    flex-wrap: wrap;
+}

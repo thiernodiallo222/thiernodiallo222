@@ -1,13 +1,17 @@
 import React from 'react'
 import './components.css';
 import GotoCard from '../greatChildren/GotoCard';
+import NavBar from './NavBar';
+import Footer from './Footer';
 
 const Goto = () => {
     return (
         <div>
-        <GotoCard />
+            <NavBar />
+            <GotoCard />
+            <Footer />
         </div>
     )
 }
 
-export default Goto
+export default Goto;
