@@ -1,4 +1,9 @@
+html, body{
+    height: 100%;
+}
+
 .page{
+    height: 100%;
     /* background: greenyellow; */
     display: flex;
     /* flex-direction:column; */
@@ -19,7 +24,8 @@ img{
     width: 630.5px;
     height: 500px;
     border-radius: 5px;
-    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
     box-sizing: border-box;
 }
 
@@ -32,3 +38,74 @@ img{
     margin-top: 5px;
     margin-bottom: 5px;
 }
+ /* Home page styling  */
+ .home-container{
+      background-image: url("../components/photos/HomeBackground.png");
+     height: 100vh;
+     display: flex;
+     box-sizing: border-box;
+ }
+ .center-text{
+border: 1px solid rgb(222,222,222);
+width: 50%;
+height: fit-content;
+margin: auto;
+box-sizing: border-box;
+display: flex; 
+flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ border-radius: 8px;
+ }
+
+ .welcome-text{
+/* border: 1px solid rgb(222,222,222); */
+border-radius: 8px;
+padding: 5px;
+text-shadow: aliceblue;
+color: white;
+
+ }
+ .home-button{
+border: 1px solid rgb(222,222,222);
+width: 250px;
+height: 50px;
+box-sizing: border-box;
+border-radius: 4px;
+font-weight: 500;
+font-size: 25px;
+  font-style: italic;
+  background: rgb(222,222,222);
+  text-decoration: none;
+  text-align: center;
+  color: black;
+ }
+
+ .greeting-and-name{
+display: flex;
+flex-direction: row;
+padding: 5px;
+font-size: 30px;
+font-weight: 500px;
+ }
+ .name-only{
+ margin-left: 8px;
+/* color: lightcoral; */
+color: magenta;
+/* color: rgb(205, 35, 105); */
+  font-style: italic;
+  font-weight: 900px;
+ }
+ .profession{
+display: flex;
+flex-direction: row;
+padding: 5px;
+font-size: 30px;
+font-weight: 500px;
+ }
+ 
+ .profession-only{
+color: yellowgreen;
+margin-left: 8px;
+  font-style: italic;
+ }
