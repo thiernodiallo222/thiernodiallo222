@@ -8,7 +8,7 @@
     margin: 5px;
     padding-left: 15px;
     padding-right: 2px;
-    width: 650px;
+    width: 500px;
     height: 500px;
     display: flex;
      flex-direction: column; 
@@ -16,7 +16,7 @@
 }
 
 img{
-    width: 648px;
+    width: 498px;
     height: 498px;
     border-radius: 5px;
 }
