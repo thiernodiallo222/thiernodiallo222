@@ -5,11 +5,11 @@
 }
 
 .section{
-    margin: 5px;
+   margin: auto;
     padding-left: 15px;
     padding-right: 2px;
-    width: 500px;
-    height: 500px;
+    width: 550px;
+    height: 400px;
     display: flex;
      flex-direction: column; 
     box-sizing: border-box;
@@ -25,4 +25,5 @@ img{
     background: white;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-evenly;
 }
