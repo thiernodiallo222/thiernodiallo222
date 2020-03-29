@@ -1,14 +1,14 @@
 import React from 'react'
-import HomeChild from '../children/HomeChild';
-import NavBar from './NavBar';
-import Footer from './Footer';
+ import HomeChild from '../children/HomeChild';
+// import NavBar from './NavBar';
+// import Footer from './Footer';
 
 const Home = () => {
     return (
         <div>
-            <NavBar />
+            {/* <NavBar /> */}
             <HomeChild />
-            <Footer />
+        
         </div>
     )
 }
