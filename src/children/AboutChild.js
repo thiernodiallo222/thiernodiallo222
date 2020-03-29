@@ -1,6 +1,13 @@
 import React from 'react'
+<<<<<<< HEAD
+import profileA from '../components/photos/profileA.png';
+import profileB from '../components/photos/profileB.png';
+// import '../components/components.css'
+// import AboutCard from '../greatChildren/AboutCard';
+=======
 import profileOne from '../components/photos/profileOne.jpg';
 import profileFive from '../components/photos/profileFive.jpg';
+>>>>>>> master
 import './children.css';
 
 const AboutChild = () => {
@@ -8,7 +15,7 @@ const AboutChild = () => {
         <div className="section-container">
 
             <div className="section">
-                <img src={profileOne} alt="can't load " />
+                <img src={profileA} alt="can't load " />
             </div>
            
 
@@ -25,7 +32,7 @@ const AboutChild = () => {
     </p>
             </div>
             <div className="section">
-                <img src={profileFive} alt="can't load " />
+                <img src={profileB} alt="can't load " />
             </div>
 
         </div>
