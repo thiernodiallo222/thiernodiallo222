@@ -8,8 +8,8 @@
     margin: 5px;
     padding-left: 15px;
     padding-right: 2px;
-    width: 500px;
-    height: 500px;
+    width: 550px;
+    height: 400px;
     display: flex;
      flex-direction: column; 
     box-sizing: border-box;
