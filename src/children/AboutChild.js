@@ -1,8 +1,6 @@
 import React from 'react'
 import profileOne from '../components/photos/profileOne.jpg';
 import profileFive from '../components/photos/profileFive.jpg';
-// import '../components/components.css'
-// import AboutCard from '../greatChildren/AboutCard';
 import './children.css';
 
 const AboutChild = () => {
