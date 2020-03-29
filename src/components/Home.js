@@ -1,17 +1,16 @@
 import React from 'react'
-import AboutChild from '../children/AboutChild';
+import HomeChild from '../children/HomeChild';
 import NavBar from './NavBar';
 import Footer from './Footer';
-import './components.css';
 
-const About = () => {
+const Home = () => {
     return (
-        <div >
+        <div>
             <NavBar />
-            <AboutChild />
+            <HomeChild />
             <Footer />
         </div>
     )
-};
+}
 
-export default About
+export default Home

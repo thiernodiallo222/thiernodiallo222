@@ -1,13 +1,31 @@
-.navigation{
-background:lightsalmon;
+.navigation, .footer{
+    height: 45px;
+/* background: white; */
 display: flex;
+flex-direction: row;
 justify-content: space-around;
 align-items: center;
 }
-NavLink{
-    margin-left: 5px;
-    margin-right: 5px;
+.link{
+    margin-left: 15px;
+    margin-right: 15px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
+    text-decoration: none;
+    font-family: georgia, 'times new roman', serif;
+    font-weight: 110;
+      color: #1779C0;
 }
+
+.link:hover{
+    width: 65px;
+    height: 25px;
+    background:black;
+    color: white;
+    border-radius: 6px;
+    text-transform: none;
+
+}
+
+

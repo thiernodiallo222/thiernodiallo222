@@ -1,11 +1,15 @@
 import React from 'react'
 import './components.css';
 import ProjectsCard from '../greatChildren/ProjectsCard';
+import NavBar from './NavBar';
+import Footer from './Footer';
 
 const Projects = () => {
     return (
         <div>
-           <ProjectsCard />
+            <NavBar />
+            <ProjectsCard />
+            <Footer />
         </div>
     )
 }
