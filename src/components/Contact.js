@@ -1,13 +1,14 @@
 import React from 'react'
 import NavBar from './NavBar';
-import Footer from './Footer';
+// import Footer from './Footer';
+import ContactChild from '../children/ContactChild';
 
 const Contact = () => {
     return (
         <div>
             <NavBar />
-            <h1>I am the contact page</h1>
-            <Footer />
+            <ContactChild />
+            {/* <Footer /> */}
         </div>
     )
 }
