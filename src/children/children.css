@@ -181,3 +181,59 @@ font-size: 25px;
 color: white;
 }
 
+/* Project page styling */
+.project-page{
+width: 100%;
+height: 95vh;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+/* border: 1px solid red; */
+box-sizing: border-box;
+background: rgb(27,31,42);
+color: white;
+}
+.insider-lines{
+    width: 100%;
+    height: 32vh;
+    display: flex;
+justify-content: center;
+align-items: center;
+margin: auto;
+box-sizing: border-box;
+/* border: 1px solid blue; */
+}
+.box-long{
+    width: 45%;
+    height: 32vh;
+    margin: auto;
+    box-sizing: border-box;
+    border: 1px solid rgb(150,150,150);
+    display: flex;
+     justify-content: center;
+    align-items: center;
+    text-align: center;
+;
+}
+.box-med{
+    width: 35%;
+    height: 32vh;
+    margin: auto;
+    box-sizing: border-box;
+       border: 1px solid rgb(150,150,150);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.box-small{
+width: 20%;
+height: 32vh ;
+box-sizing: border-box;
+   border: 1px solid rgb(150,150,150);
+display: flex;
+ justify-content: center;
+ align-items: center;
+   
+}
