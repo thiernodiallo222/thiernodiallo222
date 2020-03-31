@@ -156,7 +156,7 @@ width: 50%;
 height: 5vh;
 margin-top: 3px;
 margin-left: 50%;
-border-radius: 8px;
+/* border-radius: 8px; */
 background: rgb(27,31,42);
 font-size: 25px;
 color: white;
