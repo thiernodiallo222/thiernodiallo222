@@ -12,7 +12,7 @@ const ContactChild = () => {
             <h1 className="contact-title">CONTACT ME</h1>
             <input text="text" name="name" value={ user.name } placeholder="Full Name" onChange={handleChange}/>
             <input text="text" name="email" value={ user.email } placeholder="Email Address" onChange={handleChange} />
-            <textarea type="text" value={ user.message } name="message" onChange={handleChange} placeholder="Please type your message in this box "></textarea>
+            <textarea type="text" value={ user.message } name="message" onChange={handleChange} placeholder="Please type your message in this box"></textarea>
             <button text="text">Submit</button>
             </div>
         </div>

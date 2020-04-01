@@ -1,6 +1,6 @@
 import React from 'react'
 import './components.css';
-import ProjectsCard from '../greatChildren/ProjectsCard';
+import ProjectsChild from '../children/ProjectsChild';
 import NavBar from './NavBar';
 import Footer from './Footer';
 
@@ -8,7 +8,7 @@ const Projects = () => {
     return (
         <div>
             <NavBar />
-            <ProjectsCard />
+            <ProjectsChild />
             <Footer />
         </div>
     )
