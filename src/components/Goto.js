@@ -6,7 +6,7 @@ import Footer from './Footer';
 
 const Goto = () => {
     return (
-        <div className="goto-page" >
+        <div className="goto-big-page" >
             <NavBar />
             <GotoCard />
             <Footer />
