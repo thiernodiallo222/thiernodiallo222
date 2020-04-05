@@ -12,4 +12,4 @@ const SkillsChild = () => {
     )
 }
 
-export default SkillsChild
+export default SkillsChild;

@@ -4,10 +4,14 @@ import './children.scss';
 
 const GotoChild = () => {
     return (
-        <div className="goto-page" > 
+        <div className="goto-page"> 
+            
+            
             <GotoCard />
+
+
         </div>
     )
 }
 
-export default GotoChild
+export default GotoChild;
