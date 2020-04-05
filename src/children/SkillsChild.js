@@ -1,13 +1,19 @@
 import React from 'react'
-import SkillsCard from '../greatChildren/SkillsCard';
+// import SkillsCard from '../greatChildren/SkillsCard';
 import './children.scss';
 
 const SkillsChild = () => {
     return (
         <div className="skills-page" >
            
-            <SkillsCard />
-        
+            <div className="skills-page-two">
+         <div className="hexagon"> hexagon </div>
+            <div className="hexagon"> hexagon </div>
+            <div className="hexagon"> hexagon </div>
+            <div className="hexagon"> hexagon </div> 
+             <div className="hexagon"> hexagon </div>
+     
+            </div>
         </div>
     )
 }

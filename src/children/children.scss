@@ -254,6 +254,46 @@ height: 90vh;
 display: flex;
 justify-content: center;
 align-items: center;
-
 }
+  .skills-page-two{
+        width: 100vw;
+        height: 50vh;
+        background: green;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+ .hexagon {
+      width: 250px;
+      height: 130px;
+      background: red;
+      position: relative;
+   display: flex;
+   justify-content: center;
+   align-items: center;
 
+    }
+  
+    .hexagon:before {
+      content: "";
+      position: absolute;
+      top: -62.5px;
+      left: 0;
+      width: 0;
+      height: 0;
+      border-left: 125px solid transparent;
+      border-right: 125px solid transparent;
+      border-bottom: 62.5px solid red;
+    }
+    .hexagon:after {
+      content: "";
+      position: absolute;
+      bottom: -62.5px;
+      left: 0;
+      width: 0;
+      height: 0;
+      border-left: 125px solid transparent;
+      border-right: 125px solid transparent;
+      border-top: 62.5px solid red;
+    }
+    
