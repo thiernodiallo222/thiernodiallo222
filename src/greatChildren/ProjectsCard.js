@@ -3,7 +3,7 @@ import React from 'react'
 const ProjectsCard = () => {
     return (
         <div>
-            <h1>I am a child of project </h1>
+            <h1> Projects Coming soon ...  </h1>
             
         </div>
     )
