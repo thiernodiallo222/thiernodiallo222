@@ -1,15 +1,12 @@
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import './style.css';
+import './style.scss';
 import About from './components/About';
 import Projects from './components/Projects';
 import Skills from './components/Skills';
 import Goto from './components/Goto';
 import Contact from './components/Contact';
 import Home from './components/Home';
-
-
-import './style.css';
 
 function App() {
   return (
