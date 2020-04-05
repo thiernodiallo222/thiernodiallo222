@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom';
 import About from '../components/About';
 import { Route } from 'react-router-dom';
-import './children.css';
+import './children.scss';
 import HomeBackground from '../components/photos/HomeBackground.png';
 
 const HomeChild = () => {

@@ -1,10 +1,10 @@
 import React from 'react'
 import SkillsCard from '../greatChildren/SkillsCard';
-import './children.css';
+import './children.scss';
 
 const SkillsChild = () => {
     return (
-        <div>
+        <div className="skills-page" >
            
             <SkillsCard />
         

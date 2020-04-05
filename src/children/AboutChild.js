@@ -3,7 +3,7 @@ import profileA from '../components/photos/profileA.png';
 import profileB from '../components/photos/profileB.png';
 // import '../components/components.css'
 // import AboutCard from '../greatChildren/AboutCard';
-import './children.css';
+import './children.scss';
 
 const AboutChild = () => {
     return (

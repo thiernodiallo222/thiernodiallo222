@@ -1,11 +1,10 @@
 import React from 'react'
 import GotoCard from '../greatChildren/GotoCard';
-
-import './children.css';
+import './children.scss';
 
 const GotoChild = () => {
     return (
-        <div> 
+        <div className="goto-page" > 
             <GotoCard />
         </div>
     )

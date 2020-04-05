@@ -1,5 +1,5 @@
 import React from 'react'
-import './components.css';
+import './components.scss';
 import GotoCard from '../greatChildren/GotoCard';
 import NavBar from './NavBar';
 import Footer from './Footer';
