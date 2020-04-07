@@ -14,8 +14,8 @@ html, body{
    margin: auto;
     padding-left: 15px;
     padding-right: 2px;
-    width: 600px;
-    height: 50vh;
+    width: 45vw;
+    height: 49vh;
     display: flex;
     flex-direction: column; 
     box-sizing: border-box;
@@ -244,9 +244,7 @@ height: 90vh;
 display: flex;
 justify-content: center;
 align-items: center;
-
-};
-
+}
 // goto page design 
 .goto-page{
 width: 100%;
@@ -258,7 +256,7 @@ align-items: center;
   .skills-page-two{
         width: 100vw;
         height: 50vh;
-        background: green;
+        // background: green;
         display: flex;
         justify-content: space-around;
         align-items: center;
@@ -266,11 +264,22 @@ align-items: center;
  .hexagon {
       width: 250px;
       height: 130px;
-      background: red;
+      background:magenta;
       position: relative;
    display: flex;
    justify-content: center;
    align-items: center;
+//    transform: rotate(270deg);
+    text-orientation: mixed;
+    color: white;
+    text-shadow: black;
+   font-size: xx-large;
+   font-weight: bolder;
+   font-family: 'Courier New', Courier, monospace;
+   font-style: oblique;
+   text-align: center;
+   text-transform: capitalize;
+   line-height: 2.5rem;
 
     }
   
@@ -283,7 +292,8 @@ align-items: center;
       height: 0;
       border-left: 125px solid transparent;
       border-right: 125px solid transparent;
-      border-bottom: 62.5px solid red;
+      border-bottom: 62.5px solid magenta;
+     
     }
     .hexagon:after {
       content: "";
@@ -294,6 +304,8 @@ align-items: center;
       height: 0;
       border-left: 125px solid transparent;
       border-right: 125px solid transparent;
-      border-top: 62.5px solid red;
+      border-top: 62.5px solid magenta;
+       
     }
     
+     

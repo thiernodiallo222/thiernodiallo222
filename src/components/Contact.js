@@ -5,7 +5,7 @@ import ContactChild from '../children/ContactChild';
 
 const Contact = () => {
     return (
-        <div>
+        <div className="skills-big-page">
             <NavBar />
             <ContactChild />
             {/* <Footer /> */}
