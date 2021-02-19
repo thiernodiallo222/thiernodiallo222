@@ -33,14 +33,14 @@ const ProjectsChild = () => {
                           <Route path="/african-market" component={ Redirect }
                                loc="https://linkcomingsoon"/>  
                      </div>
-                    <div className="box-med"> box-five</div>
-                    <div className ="box-long"> box-six</div>
+                    <div className="box-med"> coming soon </div>
+                    <div className ="box-long"> coming soon </div>
                 </div>
 
                 <div className="insider-lines">
-                    <div className="box-long"> box-seven</div>
-                    <div className="box-med"> box-eight</div>
-                    <div className ="box-small"> box-nine</div>
+                    <div className="box-long"> coming soon</div>
+                    <div className="box-med"> coming soon </div>
+                    <div className ="box-small"> coming soon</div>
                 </div>
             </div>     
         </div>
