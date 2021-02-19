@@ -11,16 +11,16 @@ const ProjectsChild = () => {
 
                 <div className="insider-lines">
                     <div className="box-long">
-                               <Link to ="/better-professor" className="better-professor"> Better Professor App </Link>
+                               <Link to ="/better-professor" className="better-professor"> African market Place </Link>
                           <Route path="/better-professor" component={ Redirect }
-                               loc="african-marketplace-front-end-rssjtm.netlify.app/"  />    
-                        </div>
+                               loc="https://african-marketplace-front-end-rssjtm.netlify.app/"/>    
+                     </div>
                  
                     <div className="box-med">  box-two   </div>
                     <div className="box-small">  box-three </div>
                 </div>
 
-                    <div className="insider-lines">
+                <div className="insider-lines">
                     <div className="box-small"> box-four </div>
                     <div className="box-med"> box-five</div>
                     <div className ="box-long"> box-six</div>
@@ -28,8 +28,8 @@ const ProjectsChild = () => {
 
                 <div className="insider-lines">
                     <div className="box-long"> box-seven</div>
-                    <div className="box-med"> box-seven</div>
-                    <div className ="box-small"> box-seven</div>
+                    <div className="box-med"> box-eight</div>
+                    <div className ="box-small"> box-nine</div>
                 </div>
             </div>     
         </div>
