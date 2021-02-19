@@ -11,7 +11,7 @@ const ProjectsChild = () => {
 
                 <div className="insider-lines">
                     <div className="box-long">
-                    <HashLink  className="abdoul" to="/https://african-marketplace-front-end-rssjtm.netlify.app">Sauti-Africa's Market</HashLink>
+                    <HashLink  className="abdoul" to="https://african-marketplace-front-end-rssjtm.netlify.app">Sauti-Africa's Market</HashLink>
                     
                      </div>
                  
