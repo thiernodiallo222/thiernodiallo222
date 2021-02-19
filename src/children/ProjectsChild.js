@@ -13,7 +13,7 @@ const ProjectsChild = () => {
                     <div className="box-long">
                                <Link to ="/better-professor" className="better-professor"> Better Professor App </Link>
                           <Route path="/better-professor" component={ Redirect }
-                               loc="https://better-professor-site.netlify.com/"  />    
+                               loc="african-marketplace-front-end-rssjtm.netlify.app/"  />    
                         </div>
                  
                     <div className="box-med">  box-two   </div>
