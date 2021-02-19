@@ -1,7 +1,12 @@
 import React from 'react'
+// import { HashLink } from 'react-router-hash-link';
+import { genericHashLink } from 'react-router-hash-link';
+import GatsbyLink from 'gatsby-link';
 import Redirect from '../components/Redirect';
 import { Route, Link } from 'react-router-dom';
 import './children.scss';
+
+const MyHashLink = genericHashLink(GatsbyLink);
 
 const ProjectsChild = () => {
     return (
@@ -10,9 +15,10 @@ const ProjectsChild = () => {
 
                 <div className="insider-lines">
                     <div className="box-long">
-                               <Link to ="/better-professor" className="better-professor"> African market Place </Link>
+                    <MyHashLink to="https://african-marketplace-front-end-rssjtm.netlify.app/">Sauti African market</MyHashLink>
+                               {/* <Link to ="/better-professor" className="better-professor"> African market Place </Link>
                           <Route path="/better-professor" component={ Redirect }
-                               loc="https://african-marketplace-front-end-rssjtm.netlify.app/"/>    
+                               loc="https://african-marketplace-front-end-rssjtm.netlify.app/"/>     */}
                      </div>
                  
                     <div className="box-med"> 
