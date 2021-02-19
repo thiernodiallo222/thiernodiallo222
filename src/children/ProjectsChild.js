@@ -16,8 +16,16 @@ const ProjectsChild = () => {
                                loc="https://african-marketplace-front-end-rssjtm.netlify.app/"/>    
                      </div>
                  
-                    <div className="box-med">  box-two   </div>
-                    <div className="box-small">  box-three </div>
+                    <div className="box-med"> 
+                    </div>
+                          <Link to ="/african-market" className="better-professor"> African market Backend </Link>
+                          <Route path="/african-market" component={ Redirect }
+                               loc="https://sauti-africa.herokuapp.com/"/>    
+                    <div className="box-small"> 
+                    <Link to ="/game-of-life" className="better-professor"> Game of Life </Link>
+                          <Route path="/game-of-life" component={ Redirect }
+                               loc="https://quizzical-edison-40952e.netlify.app/"/>    
+                    </div>
                 </div>
 
                 <div className="insider-lines">
