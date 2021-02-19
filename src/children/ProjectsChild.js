@@ -1,7 +1,6 @@
 import React from 'react'
 import Redirect from '../components/Redirect';
 import { Route, Link } from 'react-router-dom';
-// import ProjectsCard from '../greatChildren/ProjectsCard';
 import './children.scss';
 
 const ProjectsChild = () => {
@@ -17,10 +16,10 @@ const ProjectsChild = () => {
                      </div>
                  
                     <div className="box-med"> 
-                    </div>
                           <Link to ="/african-market" className="better-professor"> African market Backend </Link>
                           <Route path="/african-market" component={ Redirect }
                                loc="https://sauti-africa.herokuapp.com/"/>    
+                    </div>
                     <div className="box-small"> 
                     <Link to ="/game-of-life" className="better-professor"> Game of Life </Link>
                           <Route path="/game-of-life" component={ Redirect }
@@ -29,7 +28,11 @@ const ProjectsChild = () => {
                 </div>
 
                 <div className="insider-lines">
-                    <div className="box-small"> box-four </div>
+                    <div className="box-small">
+                          <Link to ="/african-market" className="better-professor"> Scheduler </Link>
+                          <Route path="/african-market" component={ Redirect }
+                               loc="https://linkcomingsoon"/>  
+                     </div>
                     <div className="box-med"> box-five</div>
                     <div className ="box-long"> box-six</div>
                 </div>
