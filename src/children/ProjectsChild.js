@@ -11,7 +11,7 @@ const ProjectsChild = () => {
 
                 <div className="insider-lines">
                     <div className="box-long">
-                               <Link to ="/better professor" className="better-professor"> Better Professor </Link>
+                               <Link to ="/better-professor" className="better-professor"> Better Professor App </Link>
                           <Route path="/better-professor" component={ Redirect }
                                loc="https://better-professor-site.netlify.com/"  />    
                         </div>
