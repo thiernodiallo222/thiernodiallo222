@@ -1,6 +1,7 @@
 import React from 'react'
+import AfricanMarket from './AfricanMarket';
 import { HashLink } from 'react-router-hash-link';
-import { Route} from 'react-router-dom';
+import { Route, Link} from 'react-router-dom';
 import './children.scss';
 
 
@@ -11,12 +12,16 @@ const ProjectsChild = () => {
 
                 <div className="insider-lines">
                     <div className="box-long">
-                    <HashLink  className="abdoul" to="//african-marketplace-front-end-rssjtm.netlify.app">Sauti-Africa's Market</HashLink>
+                    <Route path="/african-market" component={AfricanMarket}>African Market</Route>
+                     <Link to="/african-market" className="abdoul">African Market</Link>
                     
                      </div>
                  
                     <div className="box-med"> 
-                    <HashLink className="abdoul" to="https://sauti-africa.herokuapp.com">Sauti-Africa Backend</HashLink>
+                    <Route path="/african-market-be" component={AfricanMarket}>African Market</Route>
+                     <Link to="/african-market-be" className="abdoul">African Market Backend</Link>
+                  
+                    {/* <HashLink className="abdoul" to="https://sauti-africa.herokuapp.com">Sauti-Africa Backend</HashLink> */}
                     </div>
                     <div className="box-small"> 
                     <HashLink className="abdoul" to="https://quizzical-edison-40952e.netlify.app">Game of life</HashLink>
