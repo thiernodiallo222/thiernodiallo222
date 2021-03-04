@@ -8,7 +8,7 @@ html, body{
     display: flex;
     justify-content: center;
     align-items:  center;
-   background: whitesmoke;
+   background: rgb(151,152,155);
 }
 .section{
    margin: auto;
@@ -19,7 +19,7 @@ html, body{
     display: flex;
     flex-direction: column; 
     box-sizing: border-box;
-    background: whitesmoke;
+   background: rgb(171,172,175);
    font-size: 1.2rem;
    line-height: 1.6rem;
    text-indent: 1rem;
@@ -39,10 +39,11 @@ img{
     height: 50vh;
     border-radius: 5px;
     box-sizing: border-box;
-    background: whitesmoke;
+ background: rgb(171,172,175);
 }
 
 .section-container{
+    background: white;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -50,7 +51,7 @@ img{
     margin-top: 5px;
     margin-bottom: 5px;
     height: 100vh;
-    background: whitesmoke;
+   background: rgb(171,172,175);
 }
  /* Home page styling  */
  .home-container{
@@ -313,18 +314,3 @@ align-items: center;
          text-decoration: none;
         
      }
-
-     /* Extra small devices (phones, 600px and down)
-@media only screen and (max-width: 600px) {...}
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-/* @media only screen and (min-width: 600px) {...} */
-
-/* Medium devices (landscape tablets, 768px and up) */
-/* @media only screen and (min-width: 768px) {...} */
-
-/* Large devices (laptops/desktops, 992px and up) */
-/* @media only screen and (min-width: 992px) {...} */
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-/* @media only screen and (min-width: 1200px) {...}  */

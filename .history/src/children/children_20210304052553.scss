@@ -19,7 +19,7 @@ html, body{
     display: flex;
     flex-direction: column; 
     box-sizing: border-box;
-    background: whitesmoke;
+   background: rgb(171,172,175);
    font-size: 1.2rem;
    line-height: 1.6rem;
    text-indent: 1rem;
@@ -39,10 +39,11 @@ img{
     height: 50vh;
     border-radius: 5px;
     box-sizing: border-box;
-    background: whitesmoke;
+ background: rgb(171,172,175);
 }
 
 .section-container{
+    background: white;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -50,7 +51,7 @@ img{
     margin-top: 5px;
     margin-bottom: 5px;
     height: 100vh;
-    background: whitesmoke;
+   background: rgb(171,172,175);
 }
  /* Home page styling  */
  .home-container{
