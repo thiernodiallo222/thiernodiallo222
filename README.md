@@ -3,8 +3,8 @@
 
 - Ask me about anything !
 - You can reach me at: thiernodiallo864@gmail.com 
-- LinkedIn: [linkedin/in/thierno864](linkedin/in/thierno864) 
-- Find out more at [visitdiallo.com](visitdiallo.com)
+- LinkedIn: [linkedin/in/thierno864](http://linkedin/in/thierno864) 
+- Find out more at [visitdiallo.com](http://visitdiallo.com/)
 
 <!-- 
 - 🔭 I’m currently working on 
