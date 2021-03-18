@@ -1,10 +1,10 @@
 ### Hello 👋, 
-### I am Thierno, and welcome to my github profile !
+### I am Thierno, and welcome to my profile !
 
 - Ask me about anything !
 - You can reach me at: thiernodiallo864@gmail.com 
-- LinkedIn: linkedin/in/thierno864 
-- Find out more at visitdiallo.com
+- LinkedIn: [linkedin/in/thierno864](linkedin/in/thierno864) 
+- Find out more at [visitdiallo.com](visitdiallo.com)
 
 <!-- 
 - 🔭 I’m currently working on 
