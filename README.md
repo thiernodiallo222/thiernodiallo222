@@ -4,8 +4,6 @@
 - ##### Interested in softeware Engineering with open options for full stack, front-end or back-end development. 
 - ##### And very excited to learn new skills to keep up with fast changing technologies 
 
-
-- Ask me about anything !
 - You can reach me at: thiernodiallo864@gmail.com 
 - Visit my [Portfolio](http://visitdiallo.com/)
 - [LinkedIn](http://www.linkedin.com/in/thierno864/) 
