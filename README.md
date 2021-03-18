@@ -3,7 +3,7 @@
 
 - Ask me about anything !
 - You can reach me at: thiernodiallo864@gmail.com 
-- LinkedIn: [linkedin/in/thierno864](www.linkedin.com/in/thierno864) 
+- LinkedIn: [linkedin.com/in/thierno864](http://www.linkedin.com/in/thierno864) 
 - Find out more at [visitdiallo.com](http://visitdiallo.com/)
 
 <!-- 
