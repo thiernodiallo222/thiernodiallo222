@@ -5,7 +5,7 @@
 - ##### And very excited to learn new skills to keep up with fast changing technologies 
 
 - You can reach me at: thiernodiallo864@gmail.com 
-- Visit my [Portfolio](http://visitdiallo.com/)
+<!-- Visit my [Portfolio](http://visitdiallo.com/) -->
 - Here is my [LinkedIn](http://www.linkedin.com/in/thierno864/) 
 
 
