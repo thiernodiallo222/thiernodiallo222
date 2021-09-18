@@ -1,0 +1,339 @@
+html, body {
+  height: 100vh;
+  background: #97989b;
+}
+
+.page {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: whi;
+}
+
+.section {
+  margin: auto;
+  padding-left: 15px;
+  padding-right: 2px;
+  width: 45vw;
+  height: 49vh;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  background: #abacaf;
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+  text-indent: 1rem;
+  font-family: monospace;
+  color: black;
+}
+
+.text-title {
+  font-size: 1.5rem;
+  line-height: 1.3rem;
+  font-family: monospace;
+  color: black;
+}
+
+img {
+  width: 600px;
+  height: 50vh;
+  border-radius: 5px;
+  box-sizing: border-box;
+  background: #abacaf;
+}
+
+.section-container {
+  background: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: auto;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  height: 100vh;
+  background: #abacaf;
+}
+
+/* Home page styling  */
+.home-container {
+  background-image: url("../components/photos/HomeBackground.png");
+  height: 100vh;
+  display: flex;
+  box-sizing: border-box;
+}
+
+.center-text {
+  border: 1px solid #dedede;
+  width: 50%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin: auto;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+}
+
+.welcome-text {
+  /* border: 1px solid rgb(222,222,222); */
+  border-radius: 8px;
+  padding: 5px;
+  text-shadow: aliceblue;
+  color: white;
+}
+
+.home-button {
+  border: 1px solid #dedede;
+  width: 250px;
+  height: 50px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 25px;
+  font-style: italic;
+  background: #dedede;
+  text-decoration: none;
+  text-align: center;
+  color: black;
+  padding-top: 15px;
+}
+
+.greeting-and-name {
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+  font-size: 30px;
+  font-weight: 500px;
+}
+
+.name-only {
+  margin-left: 8px;
+  /* color: lightcoral; */
+  color: magenta;
+  /* color: rgb(205, 35, 105); */
+  font-style: italic;
+  font-weight: 900px;
+}
+
+.profession {
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+  font-size: 30px;
+  font-weight: 500px;
+}
+
+.profession-only {
+  color: yellowgreen;
+  margin-left: 8px;
+  font-style: italic;
+}
+
+/* styling contact page  */
+.contact-container {
+  width: 100%;
+  /* background-color: green; */
+  background: #252934;
+  height: 95vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.insider-container {
+  width: 35%;
+}
+
+.contact-title {
+  margin-bottom: 60px;
+  color: white;
+}
+
+input {
+  width: 100%;
+  height: 5vh;
+  margin-top: 5px;
+  background: #1b1f2a;
+  border: none;
+  font-size: 15px;
+  text-indent: 1rem;
+}
+
+textarea {
+  margin-top: 5px;
+  width: 100%;
+  height: 30vh;
+  /* background: rgb(30,46,40); */
+  background: #1b1f2a;
+  border: none;
+  color: white;
+  font-size: 15px;
+  font-family: monospace;
+  line-height: 1.5rem;
+  text-indent: 1rem;
+}
+
+button {
+  width: 50%;
+  height: 5vh;
+  margin-top: 3px;
+  margin-left: 50%;
+  /* border-radius: 8px; */
+  background: #1b1f2a;
+  font-size: 25px;
+  color: white;
+}
+
+/* Project page styling */
+.project-page {
+  width: 100%;
+  height: 95vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid red; */
+  box-sizing: border-box;
+  background: #1b1f2a;
+  color: white;
+}
+
+.insider-lines {
+  width: 100%;
+  height: 32vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  box-sizing: border-box;
+  /* border: 1px solid blue; */
+}
+
+.box-long {
+  width: 45%;
+  height: 32vh;
+  margin: auto;
+  box-sizing: border-box;
+  border: 1px solid #969696;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.box-med {
+  width: 35%;
+  height: 32vh;
+  margin: auto;
+  box-sizing: border-box;
+  border: 1px solid #969696;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-small {
+  width: 20%;
+  height: 32vh;
+  box-sizing: border-box;
+  border: 1px solid #969696;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.better-professor {
+  color: white;
+  text-decoration: none;
+}
+
+.skills-page {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.goto-page {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.skills-page-two {
+  width: 100vw;
+  height: 50vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.hexagon {
+  width: 250px;
+  height: 130px;
+  background: magenta;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-orientation: mixed;
+  color: white;
+  text-shadow: black;
+  font-size: xx-large;
+  font-weight: bolder;
+  font-family: "Courier New", Courier, monospace;
+  font-style: oblique;
+  text-align: center;
+  text-transform: capitalize;
+  line-height: 2.5rem;
+}
+
+.hexagon:before {
+  content: "";
+  position: absolute;
+  top: -62.5px;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-left: 125px solid transparent;
+  border-right: 125px solid transparent;
+  border-bottom: 62.5px solid magenta;
+}
+
+.hexagon:after {
+  content: "";
+  position: absolute;
+  bottom: -62.5px;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-left: 125px solid transparent;
+  border-right: 125px solid transparent;
+  border-top: 62.5px solid magenta;
+}
+
+.abdoul {
+  color: white;
+  font-size: x-large;
+  text-decoration: none;
+}
+
+/* Extra small devices (phones, 600px and down)
+@media only screen and (max-width: 600px) {...}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* @media only screen and (min-width: 600px) {...} */
+/* Medium devices (landscape tablets, 768px and up) */
+/* @media only screen and (min-width: 768px) {...} */
+/* Large devices (laptops/desktops, 992px and up) */
+/* @media only screen and (min-width: 992px) {...} */
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+/* @media only screen and (min-width: 1200px) {...}  *//*# sourceMappingURL=children_20210304052550.css.map */
