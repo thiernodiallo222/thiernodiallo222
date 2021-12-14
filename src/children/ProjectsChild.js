@@ -30,7 +30,7 @@ const ProjectsChild = () => {
                                                
                 <div className="insider-lines">
                     <div className="box-small">
-                    <Redirect url='https://github.com/thiernodiallo222/Village-Book-Builders-Fe' name='Scheduler | GITHUB'/>
+                    <Redirect url='https://github.com/thiernodiallo222/Village-Book-Builders-Fe' name='Scheduler | github'/>
                      </div>
                     <div className="box-med"> coming soon </div>
                     <div className ="box-long"> coming soon </div>
