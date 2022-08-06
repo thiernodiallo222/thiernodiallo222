@@ -1,6 +1,6 @@
 # Hello 👋
 # I am Thierno, and welcome to my profile !
-- ##### I am a Stack Web Developer with the following technologies: Node, React, HTML, CSS SQL
+- ##### I am a FullStack Web Developer with the following technologies: Node, React, HTML, CSS SQL
 - ##### Interested in softeware Engineering with open options for full stack, front-end or back-end development.
 -##### I am also interested in IT support
 - ##### And very excited to learn new skills to keep up with fast changing technologies 
