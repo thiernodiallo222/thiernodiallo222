@@ -5,7 +5,7 @@
 - #### I am, too, a Data Center Technician
 - ##### And finally, I am an Infrastructure Repair Technician 
 
-- [Email Me at: thiernodiallo864@gmail.com 
+- Email Me at: thiernodiallo864@gmail.com 
 <!-- Visit my [Portfolio](http://findthierno.com/) -->
 - [LinkedIn](http://www.linkedin.com/in/thierno864/)
 - [Website](http://findthierno.com)
