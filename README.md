@@ -6,9 +6,9 @@
 - ##### And finally, I am an Infrastructure Repair Technician 
 
 - You can reach me at: thiernodiallo864@gmail.com 
-<!-- Visit my [Portfolio](http://visitdiallo.com/) -->
+<!-- Visit my [Portfolio](http://findthierno.com/) -->
 - Here is my [LinkedIn](http://www.linkedin.com/in/thierno864/)
-- Portfolio [findthierno.com]
+
 
 
 <!-- 
